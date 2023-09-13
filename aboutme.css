@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&family=NTR&display=swap');
+
+body{
+    border: 2px solid rgb(118, 118, 243);
+    border-radius: 6px;
+}
+
+#welcome{
+    color: white;
+ }
+
+ #welcome:hover{
+    color:rgb(218, 214, 214)
+ }
+
+ #welcome:active{
+    color:black
+ }
+ 
+
+ 
+ nav , navbar bg-primary{
+    border-radius: 6px;
+}
+
+.navbar-brand:hover
+{
+     color: rgb(0, 102, 255);
+}
+
+.carousel-inner{
+    margin: 1px 1px;
+    padding-left: 1px;
+    border: 2px solid rgb(0, 128, 255);
+    border-radius: 4px;
+    
+}
+
+h5{
+    color: whitesmoke;
+    font-weight: bolder;
+}
+
+p{
+    color: whitesmoke;
+    font-weight: bolder;
+}
+
+
+#help:hover{
+    color: white;
+
+}
+#help{
+    color: gray
+
+}
+
+#aboutme
+{
+   color: gray; 
+   font-family: 'NTR', sans-serif;
+   font-size: large;
+  
+}
+#aboutme:hover
+{
+   color: white;
+   cursor: pointer;   
+}
+.about{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+#aboutmebody{
+    background-color: black;
+    cursor: pointer;
+}
+#aboutmidbody
+{
+    background-color: white;
+}
+
+#aboutmidbody:hover
+{
+    background-color:#333;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+.card-text{
+    color: gray;
+}
+
+/* social media icon */
+
+.wrapper .icon{
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 50%;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 22px;
+    display: inline-block;
+    align-items: center;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    color: #333;
+    text-decoration: none;
+  }
+  .wrapper .tooltip {
+    position: absolute;
+    top: 0;
+    line-height: 1.5;
+    font-size: 14px;
+    background-color: #ffffff;
+    color: #ffffff;
+    padding: 5px 8px;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  .wrapper .tooltip::before {
+    position: absolute;
+    content: "";
+    height: 8px;
+    width: 8px;
+    background-color: #ffffff;
+    bottom: -3px;
+    left: 50%;
+    transform: translate(-50%) rotate(45deg);
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  .wrapper .icon:hover .tooltip {
+    top: -45px;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+  .wrapper .icon:hover span,
+  .wrapper .icon:hover .tooltip {
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+  }
+  .wrapper .facebook:hover,
+  .wrapper .facebook:hover .tooltip,
+  .wrapper .facebook:hover .tooltip::before {
+    background-color: #3b5999;
+    color: #ffffff;
+  }
+  .wrapper .twitter:hover,
+  .wrapper .twitter:hover .tooltip,
+  .wrapper .twitter:hover .tooltip::before {
+    background-color: #46c1f6;
+    color: #ffffff;
+  }
+  .wrapper .instagram:hover,
+  .wrapper .instagram:hover .tooltip,
+  .wrapper .instagram:hover .tooltip::before {
+    background-color: #e1306c;
+    color: #ffffff;
+  }
+  .wrapper .github:hover,
+  .wrapper .github:hover .tooltip,
+  .wrapper .github:hover .tooltip::before {
+    background-color: #333333;
+    color: #ffffff;
+  }
+  .wrapper .youtube:hover,
+  .wrapper .youtube:hover .tooltip,
+  .wrapper .youtube:hover .tooltip::before {
+    background-color: #de463b;
+    color: #ffffff;
+  }
+
+  #about{
+    color: blue;
+}
+
+.nav-link{
+    color: white;
+}
+
+#notes:active{
+    color: blue;
+}
